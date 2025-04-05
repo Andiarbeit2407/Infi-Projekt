@@ -1,0 +1,156 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container for the content */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Header styles */
+h1 {
+    color: #333;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table cells padding and borders */
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Table header styles */
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Link styles for actions */
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Specific button styles for delete and update actions */
+.delete {
+    background-color: #dc3545;
+}
+
+.update {
+    background-color: #28a745;
+}
+
+/* Styles for the action buttons (Add and Back) */
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Styles for the "Add" button and Back button */
+.add-button, .back-button {
+    display: inline-block;
+    background-color: #17a2b8;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Specific Back Button styles */
+.back-button {
+    background-color: #007bff; /* Change the color of the back button */
+}
+
+.add-button:hover, .back-button:hover {
+    opacity: 0.8;
+}
+
+/* Adjust the "Back" button color when hovered */
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Input fields styles */
+input[type="text"], input[type="number"], input[type="date"] {
+    padding: 8px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Input field focus */
+input[type="text"]:focus, input[type="number"]:focus, input[type="date"]:focus {
+    border-color: #007bff;
+}
+
+/* Button styles for actions (Save) */
+button {
+    background-color: #28a745;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect for the action buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Form container */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Labels for form inputs */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Action buttons container */
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Styling for back button and save button in action */
+.action-buttons a {
+    text-decoration: none;
+    background-color: #17a2b8;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+.action-buttons a:hover {
+    opacity: 0.8;
+}
