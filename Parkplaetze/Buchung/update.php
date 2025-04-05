@@ -48,23 +48,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="container">
         <h1>Buchungus Änderus</h1>
         <form action="" method="POST">
-            <label for="kunde_id">customer ID:</label>
+            <label for="kunde_id">Kunden ID:</label>
             <input type="text" id="kunde_id" name="kunde_id" required>
             <br>
-            <label for="parkplatz_id">parkinglot ID:</label>
+            <label for="parkplatz_id">Parkplatz ID:</label>
             <input type="text" id="parkplatz_id" name="parkplatz_id" required>
             <br>
-            <label for="startzeit">start time:</label>
+            <label for="startzeit">Start Zeit:</label>
             <input type="date_time" id="startzeit" name="startzeit" required>
             <br>
-            <label for="endzeit">end time:</label>
+            <label for="endzeit">End Zeit:</label>
             <input type="date_time" id="endzeit" name="endzeit" required>
             <br>
-            <button type="submit" class="button"><i class="fas fa-save"></i> fertigus</button>
+            <button type="submit" class="button"><i class="fas fa-save"></i> Buchung aktualisieren</button>
         </form>
 
         <div class="action-buttons">
-            <a href="index.php" class="back-button"><i class="fas fa-arrow-left"></i> zurück</a>
+            <a href="index.php" class="back-button"><i class="fas fa-arrow-left"></i> Zurück</a>
         </div>
     </div>
 </body>

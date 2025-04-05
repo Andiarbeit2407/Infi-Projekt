@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <label for="telefonnummer">Telefonnummer:</label>
             <input type="text" id="telefonnummer" name="telefonnummer" required>
             <br>
-            <button type="submit" class="button"><i class="fas fa-save"></i> Kunde bearbeiten</button>
+            <button type="submit" class="button"><i class="fas fa-save"></i> Kunde aktualisieren</button>
         </form>
 
         <div class="action-buttons">

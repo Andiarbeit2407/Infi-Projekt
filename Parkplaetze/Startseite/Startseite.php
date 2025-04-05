@@ -16,10 +16,10 @@ include('../Connect/connect.php');
 
 <h1>Willkommen auf der Startseite!</h1>
 
-<div class="button-container">
-    <a href="../Kunde/index.php" class="action-buttons a">Kunde</a>
-
-
+<div class="container">
+    <a href="../Kunde/index.php" class="action-buttons">Kunden</a>
+    <a href="../Parkplatz/index.php" class="action-buttons">Parkplätze</a>
+    <a href="../Buchung/index.php" class="action-buttons">Buchungen</a>
 </div>
 
 </body>

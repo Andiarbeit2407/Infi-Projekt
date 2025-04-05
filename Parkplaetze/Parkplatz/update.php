@@ -48,23 +48,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="container">
         <h1>Parkplatz anpapassen</h1>
         <form action="" method="POST">
-            <label for="standort">location:</label>
+            <label for="standort">Standort:</label>
             <input type="text" id="standort" name="standort" required>
             <br>
-            <label for="kapazitaet">capaciti:</label>
+            <label for="kapazitaet">Kapazität:</label>
             <input type="text" id="kapazitaet" name="kapazitaet" required>
             <br>
-            <label for="preis_pro_stunde">price per hour:</label>
+            <label for="preis_pro_stunde">Preis pro Stunde:</label>
             <input type="text" id="preis_pro_stunde" name="preis_pro_stunde" required>
             <br>
-            <label for="verfuegbar">availible:</label>
+            <label for="verfuegbar">Verfügbar:</label>
             <input type="checkbox" id="verfuegbar" name="verfuegbar" required>
             <br>
-            <button type="submit" class="button"><i class="fas fa-save"></i> Save</button>
+            <button type="submit" class="button"><i class="fas fa-save"></i> Parkplatz aktualisieren</button>
         </form>
 
         <div class="action-buttons">
-            <a href="index.php" class="back-button"><i class="fas fa-arrow-left"></i> zurück</a>
+            <a href="index.php" class="back-button"><i class="fas fa-arrow-left"></i> Zurück</a>
         </div>
     </div>
 </body>

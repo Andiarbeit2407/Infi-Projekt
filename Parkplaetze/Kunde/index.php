@@ -61,7 +61,7 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </tbody>
     </table>
     <a href="insert.php" class="add-button">Kunde hinzufügen</a>
-    <a href="../Startseite/Startseite.php" class="back-button">Zurück</a>
+    <a href="../Startseite/Startseite.php" class="back-button"><i class="fas fa-arrow-left"></i> Zurück</a>
 </div>
 </body>
 </html>

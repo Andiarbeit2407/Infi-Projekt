@@ -55,7 +55,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             <button type="submit" class="button"><i class="fas fa-plus"></i>erstello :D</button>
         </form>
         <div class="action-buttons">
-            <a href="index.php" class="back-button"><i class="fas fa-arrow-left"></i> zurück</a>
+            <a href="index.php" class="back-button"><i class="fas fa-arrow-left"></i> Zurück</a>
         </div>
     </div>
 </body>

@@ -48,7 +48,6 @@ a {
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
-    color: blue;
 }
 
 /* Specific button styles for delete and update actions */
@@ -67,26 +66,30 @@ a {
     margin-top: 20px;
 }
 
-/* Styles for the "Add" button and Back button */
+/* Styles for the "Add" button und Back button */
 .add-button, .back-button {
     display: inline-block;
-    background-color: #17a2b8;
     padding: 10px 15px;
     color: white;
     border-radius: 5px;
     text-decoration: none;
 }
 
-/* Specific Back Button styles */
+/* Geänderte Farbe: Add-Button wie Back-Button */
+.add-button {
+    background-color: #007bff;
+}
+
+/* Geänderter Hover-Effekt für Add-Button */
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+/* Spezifische Back Button styles */
 .back-button {
-    background-color: #007bff; /* Change the color of the back button */
+    background-color: #007bff;
 }
 
-.add-button:hover, .back-button:hover {
-    opacity: 0.8;
-}
-
-/* Adjust the "Back" button color when hovered */
 .back-button:hover {
     background-color: #0056b3;
 }
@@ -98,7 +101,7 @@ input[type="text"], input[type="number"], input[type="date"] {
     margin: 10px 0;
     border-radius: 5px;
     border: 1px solid #ddd;
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    box-sizing: border-box;
 }
 
 /* Input field focus */
@@ -140,7 +143,8 @@ label {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    color: blue;
+    background-color: #17a2b8;
+    color: white;
 }
 
 /* Styling for back button and save button in action */
@@ -152,7 +156,20 @@ label {
     border-radius: 5px;
 }
 
-/* Button hover effect */
 .action-buttons a:hover {
     opacity: 0.8;
+}
+
+/* 🔧 Fix: Icon-Farbe in Delete- und Update-Buttons auf weiß setzen */
+a.delete, a.update {
+    color: white; /* Setzt Textfarbe, wirkt auf <i> */
+}
+
+a.delete svg, a.update svg,
+a.delete i, a.update i {
+    fill: white;   /* Für SVGs */
+    color: white;  /* Für Font Icons wie <i> */
+}
+.button-margin-top {
+    margin-top: 40px; /* Abstand nach oben */
 }

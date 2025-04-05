@@ -47,22 +47,22 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             <label for="id">ID:</label>
             <input type="text" id="id" name="id" required>
             <br>
-            <label for="kunde_id">customer ID:</label>
+            <label for="kunde_id">Kunden ID:</label>
             <input type="text" id="kunde_id" name="kunde_id" required>
             <br>
-            <label for="parkplatz_id">parkinglot ID:</label>
+            <label for="parkplatz_id">Parkplatz ID:</label>
             <input type="text" id="parkplatz_id" name="parkplatz_id" step="0.01" required>
             <br>
-            <label for="startzeit">start time:</label>
+            <label for="startzeit">Start Zeit:</label>
             <input type="date_time" id="startzeit" name="startzeit" step="0.01" required>
             <br>
-            <label for="endzeit">end time:</label>
+            <label for="endzeit">End Zeit:</label>
             <input type="date_time" id="endzeit" name="endzeit" step="0.01" required>
             <br>
-            <button type="submit" class="button"><i class="fas fa-plus"></i> fertigus</button>
+            <button type="submit" class="button"><i class="fas fa-plus"></i> Buchung erstellen</button>
         </form>
         <div class="action-buttons">
-            <a href="index.php" class="back-button"><i class="fas fa-arrow-left"></i> zurück</a>
+            <a href="index.php" class="back-button"><i class="fas fa-arrow-left"></i> Zurück</a>
         </div>
     </div>
 </body>

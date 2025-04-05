@@ -40,8 +40,8 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <th>Startzeit</th>
                     <th>Endzeit</th>
                     <th>Buchungszeit</th>
-                    <th>Delete</th>
-                    <th>Edit</th>
+                    <th>Entfernen</th>
+                    <th>Bearbeiten</th>
                 </tr>
             </thead>
             <tbody>
@@ -60,6 +60,7 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </tbody>
         </table>
         <a href="insert.php" class="add-button">Buchung erstellen</a>
+        <a href="../Startseite/Startseite.php" class="back-button"><i class="fas fa-arrow-left"></i> Zurück</a>
     </div>
 </body>
 </html>
