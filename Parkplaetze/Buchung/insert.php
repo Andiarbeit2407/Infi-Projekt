@@ -25,7 +25,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     //Ausführen des SQL-Statements von oben
     $stmt->execute();
-    header('location:./skiverleih.php');
+    header('location:./index.php');
 }
 
 ?>
@@ -35,14 +35,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kundus Hinzufügus</title>
+    <title>Buchung Hinzufügen</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../view/style.css">
 
 </head>
 <body>
     <div class="container">
-        <h1>Buchungus Hinzufügus</h1>
+        <h1>Buchung Hinzufügen</h1>
         <form action="" method="POST">
             <label for="id">ID:</label>
             <input type="text" id="id" name="id" required>

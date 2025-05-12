@@ -31,14 +31,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parkoplatzo erstello</title>
+    <title>Parkoplatz Erstellen</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../view/style.css">
 
 </head>
 <body>
     <div class="container">
-        <h1>Parkoplatzo erstello</h1>
+        <h1>Parkoplatz Erstellen</h1>
         <form action="" method="POST">
             <label for="standort">location:</label>
             <input type="text" id="standort" name="standort" required>

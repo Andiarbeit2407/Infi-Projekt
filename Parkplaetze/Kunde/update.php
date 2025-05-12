@@ -41,12 +41,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kundus Änderus</title>
+    <title>Kunden Ändern</title>
     <link rel="stylesheet" href="../view/style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Kundus Änderus</h1>
+        <h1>Kunden Ändern</h1>
         <form action="" method="POST">
             <label for="nachname">Nachname:</label>
             <input type="text" id="nachname" name="nachname" required>

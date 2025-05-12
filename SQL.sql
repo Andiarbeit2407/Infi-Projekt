@@ -17,7 +17,7 @@ CREATE TABLE `kunde` (
     `telefonnummer` VARCHAR(20) NOT NULL,
     `registrierungsdatum` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
++
 CREATE TABLE `parkplatz` (
     `id` INT AUTO_INCREMENT PRIMARY KEY,
     `standort` VARCHAR(255) NOT NULL,
